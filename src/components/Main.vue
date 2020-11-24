@@ -1,15 +1,14 @@
 <template>
-  <div id="top">
-    <div id="intro">
-      <h2 class="hello">{{ greeting }}.</h2>
-      <h2 class="hello">My name is</h2>
-      <h1 id="name">Mathew McKinney.</h1>
-      <h2 class="hello">I am a</h2>
-      <h6 class="status">Jr.</h6>
-      <h2 class="hello">Full Stack Developer.</h2>
-      <h6 class="status">(in training)</h6>
-    </div>
-  </div>
+  <section id="top">
+    <container>
+      <div id="intro">
+        <h2 class="hello">{{ greeting }}.</h2>
+        <h2 class="hello">My name is</h2>
+        <h1 id="name">Mathew McKinney.</h1>
+        <h2 class="hello">I am a Full Stack Developer.</h2>
+      </div>
+    </container>
+  </section>
 </template>
 
 <script>
@@ -48,8 +47,7 @@ export default {
 </script>
 
 <style scoped>
-h2,
-h6 {
+h2 {
   display: inline;
 }
 
@@ -58,7 +56,6 @@ h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 
 #intro {
@@ -82,9 +79,5 @@ h6 {
   font-family: "Source Code Pro", monospace;
   font-size: 5rem;
   color: rgb(255, 223, 0);
-}
-
-.status {
-  margin: 0 3px;
 }
 </style>

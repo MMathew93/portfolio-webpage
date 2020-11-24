@@ -33,9 +33,12 @@ export default {
 
 <style>
 #footer {
-  margin-top: auto;
   display: flex;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(35, 38, 40);
 }
 
 .social {
