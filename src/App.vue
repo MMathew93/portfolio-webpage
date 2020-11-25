@@ -1,28 +1,17 @@
 <template>
   <div id="app">
-    <Nav />
     <Main />
-    <Work />
-    <About />
-    <Footer />
   </div>
 </template>
 
 <script>
 import $ from "jquery";
-import Nav from "@/components/Nav.vue";
-import Main from "@/components/Main.vue";
-import Work from "@/components/Work.vue";
-import About from "@/components/About.vue";
-import Footer from "@/components/Footer.vue";
+import Main from "@/views/Main.vue";
+
 export default {
   name: "App",
   components: {
-    Nav,
-    Main,
-    Work,
-    About,
-    Footer
+    Main
   },
   mounted() {
     $(function() {
@@ -46,8 +35,20 @@ export default {
   box-sizing: border-box;
 }
 
-html {
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  padding: 0 !important;
+  line-height: normal;
+  background-color: rgb(35, 38, 40);
   scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
 }
 
 #app {
@@ -60,13 +61,7 @@ html {
   height: 100%;
 }
 
-section {
-  display: inline-block;
-  width: 100%;
-  height: 100vh;
-}
-
-container {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;

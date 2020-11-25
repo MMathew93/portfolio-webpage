@@ -1,7 +1,7 @@
 <template>
   <section id="about">
-    <container>
-      <h1>A little about me...</h1>
+    <div class="container">
+      <h1 class="aboutmetitle">A little about me...</h1>
       <div id="aboutinfo">
         <div>
           <img src="../assets/placeholder.jpg" alt="Itsa me!" />
@@ -18,11 +18,13 @@
           how far I can still go.
         </article>
       </div>
-      <h1>Skills and Technologies</h1>
-      <div>
-        Technologieshere
+      <div class="skillsinfo">
+        <h1 class="title">Skills and Technologies</h1>
+        <div>
+          Technologieshere
+        </div>
       </div>
-    </container>
+    </div>
   </section>
 </template>
 
@@ -38,6 +40,15 @@ img {
   border-radius: 5px;
   height: 400px;
 }
+.aboutmetitle {
+  color: inherit;
+  font-size: 3.5rem;
+}
+
+.title {
+  color: inherit;
+}
+
 #aboutinfo {
   display: flex;
   justify-content: center;

@@ -1,8 +1,39 @@
 <template>
-  <nav id="nav">
-    <div class="nav-links">
-      <a href="#work" id="linkPortfolio" @click="smoothScroll">Work</a>
-      <a href="#about" id="linkAbout" @click="smoothScroll">About</a>
+  <nav
+    class="navbar is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
+  >
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+      <a
+        role="button"
+        class="navbar-burger burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasicExample"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="links">
+            <a href="#work">
+              Work
+            </a>
+            <a href="#about">
+              About
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </nav>
 </template>
@@ -14,22 +45,18 @@ export default {
 </script>
 
 <style>
-#nav {
-  position: fixed;
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  padding: 30px;
+.navbar {
+  background-color: inherit !important;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-#nav a {
-  font-weight: bold;
-  font-size: 24px;
-  color: white;
+a {
+  color: white !important;
   margin: 0 15px;
 }
 
-#nav a:hover {
-  color: #42b983;
+a:hover {
+  color: #42b983 !important;
 }
 </style>

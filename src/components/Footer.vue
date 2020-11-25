@@ -36,7 +36,9 @@ export default {
   display: flex;
   justify-content: center;
   position: fixed;
+  right: 0;
   bottom: 0;
+  z-index: 30;
   width: 100%;
   background-color: rgb(35, 38, 40);
 }
@@ -44,11 +46,13 @@ export default {
 .social {
   display: flex;
   justify-content: space-between;
-  width: 400px;
   margin: 5px;
+  width: auto;
+  padding: 5px;
 }
 .icon {
   font-size: 25px;
+  margin: 0 15px;
 }
 .links {
   color: inherit !important;
