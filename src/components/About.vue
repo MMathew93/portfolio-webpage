@@ -58,4 +58,11 @@ img {
 #summary {
   width: 350px;
 }
+
+/*Mobile Mix-ins*/
+@media screen and (max-width: 600px) {
+  #aboutinfo {
+    flex-direction: column;
+  }
+}
 </style>

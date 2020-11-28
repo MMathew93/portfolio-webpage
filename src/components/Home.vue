@@ -77,6 +77,8 @@ h2 {
 
 #intro {
   text-align: left;
+  line-height: normal;
+  margin: 0 25px;
 }
 
 .hello {
@@ -97,5 +99,26 @@ h2 {
   font-family: "Source Code Pro", monospace;
   font-size: 5rem;
   color: rgb(255, 223, 0);
+}
+
+/*Mobile Mix-ins*/
+@media screen and (max-width: 800px) {
+  .hello {
+    font-size: 2rem;
+  }
+
+  #name {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hello {
+    font-size: 1.3rem;
+  }
+
+  #name {
+    font-size: 2rem;
+  }
 }
 </style>

@@ -49,6 +49,7 @@ body {
 
 section {
   height: 100vh;
+  display: flex !important;
 }
 
 #app {
@@ -66,6 +67,5 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 </style>

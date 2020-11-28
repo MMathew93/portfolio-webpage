@@ -1,26 +1,28 @@
 <template>
   <footer id="footer">
-    <div class="social">
-      <span class="icon">
-        <a class="links" href="https://www.facebook.com/mathew.mckinney">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </span>
-      <span class="icon">
-        <a class="links" href="https://twitter.com/CallMeLyndexer">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </span>
-      <span class="icon">
-        <a class="links" href="https://github.com/MMathew93">
-          <i class="fab fa-github-alt"></i>
-        </a>
-      </span>
-      <span class="icon">
-        <a class="links" href="mailto:mckinney.m93@gmail.com">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </span>
+    <div class="container">
+      <div class="content">
+        <span class="icon">
+          <a class="links" href="https://www.facebook.com/mathew.mckinney">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </span>
+        <span class="icon">
+          <a class="links" href="https://twitter.com/CallMeLyndexer">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </span>
+        <span class="icon">
+          <a class="links" href="https://github.com/MMathew93">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </span>
+        <span class="icon">
+          <a class="links" href="mailto:mckinney.m93@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </span>
+      </div>
     </div>
   </footer>
 </template>
@@ -43,7 +45,7 @@ export default {
   background-color: rgb(35, 38, 40);
 }
 
-.social {
+.content {
   display: flex;
   justify-content: space-between;
   margin: 5px;

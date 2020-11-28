@@ -1,41 +1,23 @@
 <template>
-  <nav
-    class="navbar is-fixed-top"
-    role="navigation"
-    aria-label="main navigation"
-  >
-    <div class="navbar-brand">
-      <a class="navbar-item" href="#top">
+  <b-navbar class="navbar is-fixed-top">
+    <template slot="brand">
+      <b-navbar-item class="navbar-item" href="#top">
         <i class="fas fa-chevron-up"></i>
-      </a>
-      <a
-        role="button"
-        class="navbar-burger burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasicExample"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="links">
-            <a href="#work">
-              Work
-            </a>
-            <a href="#about">
-              About
-            </a>
-          </div>
+      </b-navbar-item>
+    </template>
+    <template slot="end">
+      <b-navbar-item tag="div">
+        <div class="links">
+          <a href="#work">
+            Work
+          </a>
+          <a href="#about">
+            About
+          </a>
         </div>
-      </div>
-    </div>
-  </nav>
+      </b-navbar-item>
+    </template>
+  </b-navbar>
 </template>
 
 <script>
@@ -49,6 +31,14 @@ export default {
   background-color: inherit !important;
   font-size: 22px;
   font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  float: right;
+  background-color: rgb(35, 38, 40) !important;
 }
 
 a {
