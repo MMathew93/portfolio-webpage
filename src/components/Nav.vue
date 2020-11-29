@@ -49,4 +49,12 @@ a {
 a:hover {
   color: #42b983 !important;
 }
+
+/*Mobile Mix-ins*/
+@media screen and (max-width: 600px) {
+  .navbar {
+    background-color: rgb(35, 38, 40) !important;
+    font-size: 14px;
+  }
+}
 </style>

@@ -48,7 +48,6 @@ body {
 }
 
 section {
-  height: 100vh;
   display: flex !important;
 }
 

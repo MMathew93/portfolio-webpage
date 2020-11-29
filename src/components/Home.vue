@@ -75,6 +75,10 @@ h2 {
   display: inline;
 }
 
+#top {
+  height: 100vh;
+}
+
 #intro {
   text-align: left;
   line-height: normal;
