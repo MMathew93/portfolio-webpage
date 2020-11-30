@@ -20,151 +20,175 @@
       </div>
       <div class="skillsinfo">
         <h1 class="title">Skills and Technologies</h1>
-        <div id="skills-box" class="tile is-ancestor is-vertical">
-          <div class="tile is-parent">
-            <div id="fontend" class="tech-box tile">
-              <div class="techTitle">
-                Front-End
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/frontend/vuejs-seeklogo.com.svg"
-                  alt="Vue"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/frontend/htmllogo.png"
-                  alt="HTML"
-                />
-              </div>
-              <div class="iconText">
-                <img src="../assets/tech icons/frontend/pug.png" alt="Pug" />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/frontend/csslogo.png"
-                  alt="CSS"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/frontend/bootstraplogo.png"
-                  alt="BootStrap"
-                />
-              </div>
-              <div class="iconText bulmafix">
-                <img
-                  src="../assets/tech icons/frontend/bulma-seeklogo.com.svg"
-                  alt="Bulma"
-                />
-              </div>
-            </div>
-            <div id="backend" class="tech-box tile">
-              <div class="techTitle">
-                Back-End
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/backend/nodelogo.png"
-                  alt="NodeJs"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/backend/express.png"
-                  alt="Express"
-                />
-              </div>
-              <div class="iconText">
-                <img src="../assets/tech icons/backend/mysql.svg" alt="SQL" />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/backend/mongoose.png"
-                  alt="Mongoose"
-                />
-              </div>
-              <div class="iconText mongodbfix">
-                <img
-                  src="../assets/tech icons/backend/mongoDB.png"
-                  alt="MongoDB"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/backend/firebase.png"
-                  alt="Firebase"
-                />
-              </div>
-              <div class="iconText">
-                <img src="../assets/tech icons/backend/oauth.png" alt="OAuth" />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/backend/passportjs.png"
-                  alt="Passport"
-                />
+        <div id="skills-box" class="tile is-ancestor">
+          <!-- Left Section -->
+          <div class="tile is-vertical">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <div id="fontend" class="tech-box tile is-child">
+                  <div class="techTitle">
+                    Front-End
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/frontend/vuejs-seeklogo.com.svg"
+                      alt="Vue"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/frontend/htmllogo.png"
+                      alt="HTML"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/frontend/pug.png"
+                      alt="Pug"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/frontend/csslogo.png"
+                      alt="CSS"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/frontend/bootstraplogo.png"
+                      alt="BootStrap"
+                    />
+                  </div>
+                  <div class="iconText bulmafix">
+                    <img
+                      src="../assets/tech icons/frontend/bulma-seeklogo.com.svg"
+                      alt="Bulma"
+                    />
+                  </div>
+                </div>
+                <!--  -->
+                <div id="devops" class="tech-box tile is-child">
+                  <div class="techTitle">
+                    DevOps
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/devops/gitlogo.png"
+                      alt="Git"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/devops/githublogo.png"
+                      alt="GitHub"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/devops/heroku.png"
+                      alt="Heroku"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img src="../assets/tech icons/devops/npm.png" alt="npm" />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/devops/webpack.png"
+                      alt="webpack"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="tile is-parent">
-            <div id="devops" class="tech-box tile">
-              <div class="techTitle">
-                DevOps
-              </div>
-              <div class="iconText">
-                <img src="../assets/tech icons/devops/gitlogo.png" alt="Git" />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/devops/githublogo.png"
-                  alt="GitHub"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/devops/heroku.png"
-                  alt="Heroku"
-                />
-              </div>
-              <div class="iconText">
-                <img src="../assets/tech icons/devops/npm.png" alt="npm" />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/devops/webpack.png"
-                  alt="webpack"
-                />
-              </div>
-            </div>
-            <div id="tools" class="tech-box tile">
-              <div class="techTitle">
-                Tools
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/languages/jslogo.png"
-                  alt="Javascript"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/tools/vscode.png"
-                  alt="VS Code"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/tools/postman.png"
-                  alt="Postman"
-                />
-              </div>
-              <div class="iconText">
-                <img
-                  src="../assets/tech icons/tools/jest-seeklogo.com.svg"
-                  alt="Jest"
-                />
+          <!-- Right Section -->
+          <div class="tile is-vertical">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <div id="backend" class="tech-box tile is-child">
+                  <div class="techTitle">
+                    Back-End
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/backend/nodelogo.png"
+                      alt="NodeJs"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/backend/express.png"
+                      alt="Express"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/backend/mysql.svg"
+                      alt="SQL"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/backend/mongoose.png"
+                      alt="Mongoose"
+                    />
+                  </div>
+                  <div class="iconText mongodbfix">
+                    <img
+                      src="../assets/tech icons/backend/mongoDB.png"
+                      alt="MongoDB"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/backend/firebase.png"
+                      alt="Firebase"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/backend/oauth.png"
+                      alt="OAuth"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/backend/passportjs.png"
+                      alt="Passport"
+                    />
+                  </div>
+                </div>
+                <!--  -->
+                <div id="tools" class="tech-box tile is-child">
+                  <div class="techTitle">
+                    Tools
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/languages/jslogo.png"
+                      alt="Javascript"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/tools/vscode.png"
+                      alt="VS Code"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/tools/postman.png"
+                      alt="Postman"
+                    />
+                  </div>
+                  <div class="iconText">
+                    <img
+                      src="../assets/tech icons/tools/jest-seeklogo.com.svg"
+                      alt="Jest"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -248,8 +272,11 @@ export default {
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid white;
-  margin: 15px;
-  max-width: 410px;
+  max-width: 450px;
+}
+
+.tile.is-child {
+  margin: 15px !important;
 }
 
 .techTitle {
