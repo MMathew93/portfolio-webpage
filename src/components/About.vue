@@ -298,6 +298,10 @@ export default {
     height: 300px;
     min-width: 284px;
   }
+  #summary {
+    font-size: 1.2rem;
+    width: 430px;
+  }
 }
 /*Mobile Mix-ins*/
 @media screen and (max-width: 600px) {

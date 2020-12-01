@@ -1,15 +1,29 @@
 <template>
   <section id="work">
     <div class="container">
-      <h1>TEST</h1>
+      <h1 class="projectstitle">Projects</h1>
+      <Carousel />
     </div>
   </section>
 </template>
 
 <script>
-// @ is an alias to /src
-
+import Carousel from "../components/Carousel.vue";
 export default {
-  name: "Work"
+  name: "Work",
+  components: {
+    Carousel
+  }
 };
 </script>
+
+.<style scoped>
+#work {
+  height: 100vh;
+}
+
+.projectstitle {
+  color: inherit;
+  font-size: 3.5rem;
+}
+</style>
