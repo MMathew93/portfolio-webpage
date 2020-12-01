@@ -48,4 +48,11 @@ export default {
   width: 100%;
   margin: 0 20px;
 }
+
+/*Mobile Mix-ins*/
+@media screen and (max-width: 1024px) {
+  .hero {
+    height: 400px;
+  }
+}
 </style>
