@@ -17,9 +17,14 @@
             <img :src="`${carousel.gif}`" />
           </div>
         </section>
+        <p class="project-name" :text="`${carousel.name}`">
+          {{ carousel.name }}
+        </p>
         <div class="button-box">
-          <a class="button is-link" :href="`${carousel.demo}`">Demo</a>
-          <a class="button is-link" :href="`${carousel.source}`">Source Code</a>
+          <a class="button is-link project" :href="`${carousel.demo}`">Demo</a>
+          <a class="button is-link project" :href="`${carousel.source}`"
+            >Source Code</a
+          >
         </div>
       </b-carousel-item>
     </b-carousel>
@@ -36,41 +41,41 @@ export default {
       arrowHover: true,
       carousels: [
         {
-          name: "PhotoTagApp",
+          name: "Photo Tagging Application",
           gif: "https://i.imgur.com/oTzN7VY.gif",
           demo: "https://where-s-waldo-cf908.web.app/#/",
           source:
             "https://github.com/MMathew93/Photo-Tagging-App/tree/master/photo-tagging-app"
         },
         {
-          name: "WeatherApp",
+          name: "Weather Application",
           gif: "https://i.imgur.com/bmtieJt.gif",
-          demo: "#",
+          demo: "https://weather-app-odin.herokuapp.com",
           source: "https://github.com/MMathew93/Weather-App"
         },
         {
-          name: "BattleshipApp",
+          name: "Battleship Game",
           gif: "https://i.imgur.com/n3kdxUc.gif",
-          demo: "#",
+          demo: "https://battle-ship-odin.herokuapp.com",
           source:
             "https://github.com/MMathew93/Battle-Ship/tree/master/battle-ship"
         },
         {
-          name: "BlogUserApp",
+          name: "Personal Blog",
           gif: "https://i.imgur.com/ittvW8m.gif",
-          demo: "#",
+          demo: "https://my-personal-blog-userx.herokuapp.com/#/",
           source: "https://github.com/MMathew93/Blog-Project"
         },
         {
-          name: "Discordbot",
+          name: "Discord Bot",
           gif: "https://i.imgur.com/NwYJ8ID.gif",
           demo: "#",
           source: "https://github.com/MMathew93/heh-bot"
         },
         {
-          name: "MembersOnlyApp",
+          name: "Member's Only Application",
           gif: "https://i.imgur.com/Y3ucToS.gif",
-          demo: "#",
+          demo: "https://membersonly-app.herokuapp.com",
           source: "https://github.com/MMathew93/members-only"
         }
       ]
@@ -98,7 +103,12 @@ export default {
   padding: 0 !important;
 }
 
-.is-link {
-  max-width: 200px;
+.project {
+  min-width: 120px !important;
+}
+
+.project-name {
+  font-size: 24px;
+  margin: 10px;
 }
 </style>
