@@ -40,7 +40,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow: hidden;
+  overflow: scroll;
   padding: 0 !important;
   line-height: normal;
   background-color: rgb(35, 38, 40);
