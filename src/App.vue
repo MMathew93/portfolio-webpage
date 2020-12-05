@@ -40,11 +40,12 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  overflow: scroll;
+  overflow-y: hidden;
   padding: 0 !important;
   line-height: normal;
   background-color: rgb(35, 38, 40);
   scroll-behavior: smooth;
+  position: absolute;
 }
 
 section {
