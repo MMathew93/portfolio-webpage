@@ -4,10 +4,6 @@
       :arrow="arrow"
       :repeat="arrowBoth"
       :arrow-hover="arrowHover"
-      :icon-pack="iconPack"
-      :icon-prev="iconPrev"
-      :icon-next="iconNext"
-      :icon-size="iconSize"
       :indicator-inside="false"
       :autoplay="false"
     >

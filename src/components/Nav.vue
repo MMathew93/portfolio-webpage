@@ -34,8 +34,6 @@ export default {
 }
 
 .navbar-menu {
-  display: flex;
-  flex-direction: column;
   width: auto;
   float: right;
   background-color: rgb(35, 38, 40) !important;

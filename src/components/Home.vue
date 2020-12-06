@@ -21,7 +21,7 @@
         <h1 id="name">Mathew McKinney.</h1>
         <div>
           <h2 class="hello">
-            I am a Front End Developer.
+            I am a Full stack Developer.
           </h2>
         </div>
       </div>

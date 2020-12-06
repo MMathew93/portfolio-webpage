@@ -1,5 +1,11 @@
 <template>
-  <section id="work">
+  <section
+    id="work"
+    data-aos="fade-up"
+    data-aos-easing="ease"
+    class="aos-init"
+    data-aos-duration="3000"
+  >
     <div class="container">
       <h1 class="projectstitle">Projects</h1>
       <Carousel />
@@ -17,7 +23,7 @@ export default {
 };
 </script>
 
-.<style scoped>
+<style scoped>
 #work {
   height: 100vh;
 }

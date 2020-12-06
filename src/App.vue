@@ -35,17 +35,20 @@ export default {
   box-sizing: border-box;
 }
 
-html,
+html {
+  width: 100%;
+  margin: 0px;
+  line-height: normal;
+  background-color: rgb(35, 38, 40) !important;
+}
+
 body {
   width: 100%;
   margin: 0px;
-  padding: 0px;
-  overflow-y: hidden;
-  padding: 0 !important;
   line-height: normal;
   background-color: rgb(35, 38, 40);
-  scroll-behavior: smooth;
-  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 section {
@@ -60,6 +63,12 @@ section {
   background-color: rgb(35, 38, 40);
   color: rgb(200, 195, 188);
   height: 100%;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#app::-webkit-scrollbar {
+  display: none;
 }
 
 .container {

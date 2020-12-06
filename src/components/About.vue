@@ -1,5 +1,11 @@
 <template>
-  <section id="about">
+  <section
+    id="about"
+    data-aos="fade-up"
+    data-aos-easing="ease"
+    class="aos-init"
+    data-aos-duration="2000"
+  >
     <div class="container">
       <h1 class="aboutmetitle">A little about me...</h1>
       <div id="aboutinfo">
@@ -204,10 +210,6 @@ export default {
 };
 </script>
 <style scoped>
-#about {
-  margin-bottom: 50px;
-}
-
 .aboutmetitle {
   color: inherit;
   font-size: 3.5rem;
