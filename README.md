@@ -4,10 +4,10 @@ I will be hosting my resume on github as well as adding my resume to it once I h
 If you are looking to hire, reach out!
 
 ## Tech/framework used
-Vue 2
-Javascript
-Jquery (For that smooth scroll)
-Buefy
+Vue 2  
+Javascript  
+Jquery (For that smooth scroll)  
+Buefy  
 
 ## Project setup
 ```

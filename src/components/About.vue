@@ -1,7 +1,7 @@
 <template>
   <section
     id="about"
-    data-aos="fade-up"
+    data-aos="fade-in"
     data-aos-easing="ease"
     class="aos-init"
     data-aos-duration="2000"
@@ -210,9 +210,14 @@ export default {
 };
 </script>
 <style scoped>
+#about {
+  margin-bottom: 50px;
+}
+
 .aboutmetitle {
   color: inherit;
   font-size: 3.5rem;
+  padding: 25px;
 }
 
 .title {
@@ -312,7 +317,7 @@ export default {
   }
 
   .aboutmetitle {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     padding-top: 50px;
   }
 

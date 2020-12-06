@@ -28,9 +28,9 @@ export default {
 
 <style>
 .navbar {
-  background-color: inherit !important;
   font-size: 22px;
   font-weight: bold;
+  background-color: inherit !important;
 }
 
 .navbar-menu {
